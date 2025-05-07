@@ -1,3 +1,4 @@
+'use client';
 import { Header } from "@/components/subnet/header"
 import { Sidebar } from "@/components/subnet/sidebar"
 import { TabNavigation } from "@/components/subnet/tab-navigation"

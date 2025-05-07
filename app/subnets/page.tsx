@@ -1,3 +1,4 @@
+'use client';
 import { Header } from "@/components/subnet/header"
 import { Card } from "@/components/ui/card"
 import Link from "next/link"

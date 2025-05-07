@@ -25,7 +25,7 @@ interface SidebarProps {
   subnetId?: string
 }
 
-export function Sidebar({ subnetId = "30" }: SidebarProps) {
+export function Sidebar({ subnetId = "0" }: SidebarProps) {
   const [subnetInfo, setSubnetInfo] = useState({ name: "Modentensor", regDate: "24 Jun 2024" })
 
   useEffect(() => {
