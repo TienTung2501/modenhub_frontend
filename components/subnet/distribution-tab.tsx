@@ -12,7 +12,7 @@ interface DistributionTabProps {
   subnetId?: string
 }
 
-export function DistributionTab({ subnetId = "30" }: DistributionTabProps) {
+export function DistributionTab({ subnetId = "0" }: DistributionTabProps) {
   const [coldkeyView, setColdkeyView] = useState<"treemap">("treemap")
   const [ipView, setIpView] = useState<"treemap">("treemap")
 

@@ -1,5 +1,6 @@
+"use client"
 import { useMemo } from "react";
-import Chart from "react-apexcharts";
+import Chart from "../ChartWrapper.tsx";
 
 type NeuronDeregistrationData = {
   timestamp: string;

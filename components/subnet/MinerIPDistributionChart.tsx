@@ -1,6 +1,6 @@
-/** @jsxImportSource @emotion/react */
+"use client"
 import { css } from "@emotion/react";
-import Chart from "react-apexcharts";
+import Chart from "../ChartWrapper.tsx";
 import { useMemo } from "react";
 import { ApexOptions } from "apexcharts";
 

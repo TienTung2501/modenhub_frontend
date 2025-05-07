@@ -1,7 +1,7 @@
 "use client"
 
 import { useMemo } from "react"
-import Chart from "react-apexcharts"
+import Chart from "../ChartWrapper.tsx";
 
 interface IncentiveData {
   incentive: number
